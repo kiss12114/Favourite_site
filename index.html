@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Favorite Websites</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Favorite Websites</h1>
+    </header>
+    <nav>
+        <ul id="category-list"></ul>
+    </nav>
+    <main>
+        <div id="website-list"></div>
+    </main>
+    <div id="add-website-form">
+        <h2>Add a Website</h2>
+        <form id="website-form">
+            <label for="website-name">Website Name:</label>
+            <input type="text" id="website-name" required><br>
+
+            <label for="website-url">Website URL:</label>
+            <input type="url" id="website-url" required><br>
+
+            <label for="category-select">Category:</label>
+            <select id="category-select" required></select><br>
+
+            <button type="submit">Add Website</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
